@@ -1,0 +1,48 @@
+/* 開発環境インデックス（index.html）専用。テーマには追加しない */
+body {
+  margin: 0;
+  background: #F8F8F8;
+  color: #333;
+  font-family: "Noto Sans JP", "Yu Gothic", sans-serif;
+  line-height: 1.7;
+}
+.dev {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 20px 64px;
+}
+.dev h1 {
+  font-size: 22px;
+  color: #6B4F3C;
+}
+.dev h2 {
+  margin-top: 32px;
+  padding-left: 12px;
+  border-left: 4px solid #6B4F3C;
+  font-size: 17px;
+}
+.dev__lead,
+.dev p {
+  font-size: 14px;
+  color: #666;
+}
+.dev ul {
+  padding: 0;
+  list-style: none;
+}
+.dev li {
+  margin-top: 8px;
+  padding: 12px 16px;
+  background: #fff;
+  border: 1px solid #E0E0E0;
+  border-radius: 8px;
+}
+.dev li a {
+  display: block;
+  color: #6B4F3C;
+  font-weight: 600;
+}
+.dev li span {
+  font-size: 12px;
+  color: #999;
+}
