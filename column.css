@@ -50,8 +50,9 @@
   opacity: 1;
 }
 
+/* 原稿のアイキャッチ（1080x956）に合わせた比率 */
 .column-card__thumb {
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 1080 / 956;
   background-color: var(--color-bg-light);
   overflow: hidden;
 }
@@ -285,12 +286,20 @@
   text-align: center;
 }
 
-.column-body figure,
+.column-body figure {
+  margin: 0 0 var(--spacing-md);
+}
+
 .column-body img {
+  display: block;
   max-width: 100%;
   height: auto;
-  margin-bottom: var(--spacing-md);
   border-radius: var(--radius-md);
+}
+
+.column-body h2 + .column-figure,
+.column-body h3 + .column-figure {
+  margin-top: var(--spacing-sm);
 }
 
 /* 目次 */

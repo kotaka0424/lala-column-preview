@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" font-family="'Noto Sans JP','Yu Gothic',sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 956" font-family="'Noto Sans JP','Yu Gothic',sans-serif">
 <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F7F1EB"/><stop offset="1" stop-color="#E3D5C8"/></linearGradient></defs>
-<rect width="1200" height="675" fill="url(#g)"/>
-<rect x="40" y="40" width="1120" height="595" fill="none" stroke="#A1866F" stroke-width="2"/>
-<text x="600" y="150" text-anchor="middle" font-size="30" letter-spacing="10" fill="#A1866F">COLUMN</text>
-<text x="600" y="205" text-anchor="middle" font-size="28" fill="#A1866F">アートメイクの基礎知識</text>
-<text x="600" y="284" text-anchor="middle" font-size="52" font-weight="600" fill="#6B4F3C">アートメイクのデメリットとは？</text><text x="600" y="360" text-anchor="middle" font-size="52" font-weight="600" fill="#6B4F3C">後悔する前に知っておきたいリスクと</text><text x="600" y="436" text-anchor="middle" font-size="52" font-weight="600" fill="#6B4F3C">注意点</text>
-<text x="600" y="585" text-anchor="middle" font-size="22" letter-spacing="4" fill="#A1866F">SAMPLE IMAGE ／ LaLa Beauty Clinic</text>
+<rect width="1080" height="956" fill="url(#g)"/>
+<rect x="40" y="40" width="1000" height="876" fill="none" stroke="#A1866F" stroke-width="2"/>
+<text x="540" y="230" text-anchor="middle" font-size="30" letter-spacing="10" fill="#A1866F">COLUMN</text>
+<text x="540" y="285" text-anchor="middle" font-size="28" fill="#A1866F">アートメイクの基礎知識</text>
+<text x="540" y="428" text-anchor="middle" font-size="50" font-weight="600" fill="#6B4F3C">アートメイクのデメリットとは？</text><text x="540" y="500" text-anchor="middle" font-size="50" font-weight="600" fill="#6B4F3C">後悔する前に知っておきたいリス</text><text x="540" y="572" text-anchor="middle" font-size="50" font-weight="600" fill="#6B4F3C">クと注意点</text>
+<text x="540" y="840" text-anchor="middle" font-size="22" letter-spacing="4" fill="#A1866F">SAMPLE IMAGE ／ LaLa Beauty Clinic</text>
 </svg>
