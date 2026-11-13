@@ -50,9 +50,9 @@
   opacity: 1;
 }
 
-/* 原稿のアイキャッチ（1080x956）に合わせた比率 */
+/* 一覧サムネイル（写真＋タイトル、1200x675）の比率 */
 .column-card__thumb {
-  aspect-ratio: 1080 / 956;
+  aspect-ratio: 16 / 9;
   background-color: var(--color-bg-light);
   overflow: hidden;
 }
@@ -62,6 +62,11 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* 専用サムネイル未設定の記事は原稿のバナーを切らずに表示 */
+.column-card__thumb--banner img {
+  object-fit: contain;
 }
 
 .column-card__body {
@@ -121,7 +126,7 @@
   padding: 12px;
 }
 
-/* アイキャッチは文字入りバナー想定のためトリミングせず16:9のまま表示 */
+/* サムネイルは文字入りのためトリミングせず16:9のまま表示 */
 .column-card--compact .column-card__thumb {
   flex: 0 0 42%;
   border-radius: var(--radius-sm);
@@ -376,6 +381,64 @@
 
 .column-body .column-point p:last-child {
   margin-bottom: 0;
+}
+
+/* 症例（写真＋施術内容・副作用・価格。医療広告ガイドラインの記載事項をセットで表示） */
+.column-case {
+  margin: var(--spacing-lg) 0 var(--spacing-md);
+  padding: var(--spacing-sm);
+  background-color: var(--color-bg-light);
+  border-radius: var(--radius-md);
+}
+
+.column-case__title {
+  color: var(--color-primary);
+  font-weight: 600;
+  text-align: center;
+}
+
+.column-body .column-case__title {
+  margin-bottom: var(--spacing-sm);
+}
+
+.column-case__photos {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.column-body .column-case__photo {
+  margin: 0;
+}
+
+.column-case__photo img {
+  width: 100%;
+}
+
+.column-case__info {
+  margin-top: var(--spacing-sm);
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-base);
+}
+
+.column-case__info dt {
+  padding: 12px var(--spacing-sm) 0;
+  color: var(--color-primary);
+  font-size: var(--font-size-ss);
+  font-weight: 600;
+}
+
+.column-case__info dd {
+  margin: 0;
+  padding: 4px var(--spacing-sm) 12px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.column-case__info dd:last-child {
+  border-bottom: none;
 }
 
 /* 関連ページ・関連記事への本文内リンク */
